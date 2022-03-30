@@ -1,0 +1,22 @@
+{
+  "author": {
+    "email": "drumrobot@1do.space",
+    "name": "David Jeong"
+  },
+  "name": "defi-model",
+  "description": "DeFi model package defined with mongoose",
+  "homepage": "https://github.com/1DO-space/defi-model-js.git",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "mocha": "^9.2.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/_mocha --exit -r ts-node/register test/"
+  }
+}

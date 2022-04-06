@@ -6,6 +6,7 @@
   "name": "defi-model",
   "description": "DeFi model package defined with mongoose",
   "homepage": "https://github.com/1DO-space/defi-model-js.git",
+  "version": "0.0.1",
   "dependencies": {
     "dotenv": "^16.0.0",
     "mongoose": "^6.2.9"

@@ -1,0 +1,15 @@
+{
+  "author": {
+    "email": "drumrobot@1do.space",
+    "name": "David Jeong"
+  },
+  "name": "defi-types",
+  "description": "DeFi model definitions",
+  "homepage": "https://github.com/1DO-space/defi-model-ts.git",
+  "types": "./lib/index.d.ts",
+  "version": "0.0.1",
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}

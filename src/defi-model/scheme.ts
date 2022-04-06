@@ -1,9 +1,9 @@
+import { strict as assert } from 'assert';
 import { ObjectId } from 'bson';
 import * as crypto from 'crypto';
 import * as mongoose from 'mongoose';
 import { Model } from 'mongoose';
 import { MONGO_URI } from '../env';
-import assert = require('assert');
 
 export type ModelStatic<T, S> = Model<T, S> & S;
 export type Query<T> = mongoose.QueryWithHelpers<

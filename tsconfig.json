@@ -8,10 +8,19 @@
     "outDir": "dist",
     "baseUrl": ".",
     "experimentalDecorators": true,
+    "resolveJsonModule": true,
     "paths": {
       "*": ["node_modules/*"]
     }
   },
   "compileOnSave": true,
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.js",
+    "**/*.ts",
+    "package.json"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
 }

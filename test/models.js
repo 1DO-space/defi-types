@@ -1,6 +1,6 @@
 import { strict as assert } from 'assert';
 import { describe, it } from 'mocha';
-import { ProtocolModel, TokenModel } from '../src/defi-model';
+import { ProtocolModel, TokenModel } from '../model';
 
 describe('ProtocolModel', () => {
     it('Mapping governance tokens to protocols', async () => {

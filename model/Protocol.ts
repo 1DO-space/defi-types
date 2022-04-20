@@ -1,7 +1,10 @@
+import { IProtocol, Value } from '../types';
 import { BaseModel, model } from '.';
 
-export class Protocol extends BaseModel<String> {
+export class Protocol extends BaseModel<String> implements IProtocol {
   governance_token: String;
+  tvl: Value;
+  tokenInfo: any[];
   updated_at: Date;
 
   static definition = {

@@ -1,11 +1,11 @@
-import { Schema } from 'mongoose';
+import { Address, IPool, Value } from '../types';
 import { BaseModel, model } from '.';
 
-export class Pool extends BaseModel<String> {
+export class Pool extends BaseModel<String> implements IPool {
   name: String;
-  address: String;
-  liquidity: Number;
-  lp_price: Number;
+  address: Address;
+  liquidity: Value;
+  lp_price: Value;
   protocol: String;
   updated_at: Date;
 

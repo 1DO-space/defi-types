@@ -1,9 +1,13 @@
+import { ICoin } from '../types';
+
 /**
  * A token data from CoinGecko
  */
-export class Coin {
+export class Coin implements ICoin {
   id: string;
   symbol: string;
+  address: string;
+  decimals: number;
   name: string;
   last_updated: string;
 

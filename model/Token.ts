@@ -1,7 +1,8 @@
-import { BaseModel, Coin, model } from '.';
+import { ICoin } from '../types';
+import { BaseModel, model } from '.';
 
 export class Token extends BaseModel<String> {
-  coin: Coin;
+  coin: ICoin;
   price: Document;
   updated_at: Date;
 

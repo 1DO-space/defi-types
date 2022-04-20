@@ -7,10 +7,10 @@
   "description": "DeFi model package defined with mongoose",
   "exports": {
     ".": {
-      "default": "./src/defi-model/index.js"
+      "default": "./model/index.js"
     }
   },
-  "homepage": "https://github.com/1DO-space/defi-model-js.git",
+  "homepage": "https://github.com/DeFiCookie-KGU/defi-model-ts.git",
   "version": "0.0.1",
   "dependencies": {
     "dotenv": "^16.0.0",

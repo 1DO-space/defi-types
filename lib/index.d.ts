@@ -1,9 +1,9 @@
 export type Address = string;
 export type ChainName = string;
-export type Value = number;
+export type Value = number | string;
 
 export interface IDocument {
-  updated_at: Date;
+  updated_at?: Date | null;
 }
 
 export * from './account';

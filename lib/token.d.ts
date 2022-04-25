@@ -1,12 +1,12 @@
-import { IDocument } from '.';
+import { Address, IDocument, Value } from '.';
 
 export interface ICoin {
-  id: string;
   symbol: string;
+  address: Address;
   name: string;
-  last_updated: string;
+  last_updated?: string;
 }
 
 export interface IToken extends IDocument {
-  coin: ICoin;
+  coin: Partial<ICoin>;
 }

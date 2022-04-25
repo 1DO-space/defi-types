@@ -11,4 +11,5 @@ export interface IPool extends IDocument {
 export interface IProtocol extends IDocument {
   governance_token: String;
   tvl: Value;
+  tokenInfo: any[];
 }

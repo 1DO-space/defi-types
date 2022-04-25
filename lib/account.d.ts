@@ -1,4 +1,4 @@
-import { Address, ChainName, Value } from '.';
+import { Address, ChainName, ICoin, Value } from '.';
 
 export interface AccountKeyValues {
   [key: Address]: Array<ChainName>;
@@ -9,8 +9,17 @@ export interface IAccount {
   chain: string;
 }
 
-export default interface IAsset {
-  symbol: string;
-  value: Value;
-  price: Value;
+export interface IAsset {
+  balance: Value;
+  price?: Value;
+  value?: Value;
+}
+
+export interface ICoinAsset extends IAsset, ICoin {
+  logo: string;
+}
+
+export interface IChain {
+  name: ChainName;
+  assets: IAsset[];
 }

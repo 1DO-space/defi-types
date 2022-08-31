@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "openOnSessionStart",
+      "name": "Mocha Tests",
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": ["test", "--colors"],
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    }
+  ]
+}

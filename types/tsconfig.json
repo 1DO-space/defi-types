@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "compileOnSave": true,
+  "include": [
+    "**/*.d.ts",
+    "package.json"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "test",
+  ]
+}

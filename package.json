@@ -14,7 +14,7 @@
   "version": "0.0.1",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "mongoose": "^6.2.9"
+    "mongoose": "^7.1.2"
   },
   "devDependencies": {
     "@types/mocha": "^9.1.0",
